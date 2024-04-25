@@ -104,12 +104,14 @@ function got_input_hours(hours){
 
     		if (i%2==0){
     			newDiv.classList.add("textbox");
+    			newDiv.setAttribute("data-aos", "fade-right");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
     		}
     		else if (i%2==1){
        			newDiv.classList.add("textbox2");
+       			newDiv.setAttribute("data-aos", "fade-left");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
@@ -128,12 +130,14 @@ function got_input_hours(hours){
 
     		if (i%2==0){
     			newDiv.classList.add("textbox");
+    			newDiv.setAttribute("data-aos", "fade-right");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
     		}
     		else if (i%2==1){
        			newDiv.classList.add("textbox2");
+          		newDiv.setAttribute("data-aos", "fade-left");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
@@ -152,12 +156,14 @@ function got_input_hours(hours){
 
     		if (i%2==0){
     			newDiv.classList.add("textbox");
+    			newDiv.setAttribute("data-aos", "fade-right");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
     		}
     		else if (i%2==1){
        			newDiv.classList.add("textbox2");
+       			newDiv.setAttribute("data-aos", "fade-left");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
@@ -215,12 +221,14 @@ function insertQ2(){
 
     		if (i%2==0){
     			newDiv.classList.add("textbox");
+    			newDiv.setAttribute("data-aos", "fade-right");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
     		}
     		else if (i%2==1){
        			newDiv.classList.add("textbox2");
+       		    newDiv.setAttribute("data-aos", "fade-left");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
@@ -244,12 +252,14 @@ function insertQ2(){
 
     		if (i%2==0){
     			newDiv.classList.add("textbox");
+    			newDiv.setAttribute("data-aos", "fade-right");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
     		}
     		else if (i%2==1){
        			newDiv.classList.add("textbox2");
+       			newDiv.setAttribute("data-aos", "fade-left");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
@@ -273,12 +283,14 @@ function insertQ2(){
 
     		if (i%2==0){
     			newDiv.classList.add("textbox");
+    			newDiv.setAttribute("data-aos", "fade-right");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
     		}
     		else if (i%2==1){
        			newDiv.classList.add("textbox2");
+       			newDiv.setAttribute("data-aos", "fade-left");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
@@ -302,12 +314,14 @@ function insertQ2(){
 
     		if (i%2==0){
     			newDiv.classList.add("textbox");
+    			newDiv.setAttribute("data-aos","fade-right");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
     		}
     		else if (i%2==1){
        			newDiv.classList.add("textbox2");
+       			newDiv.setAttribute("data-aos", "fade-left");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
@@ -368,12 +382,14 @@ function insertQ3(){
 
     		if (i%2==0){
     			newDiv.classList.add("textbox");
+    			newDiv.setAttribute("data-aos", "fade-right");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
     		}
     		else if (i%2==1){
        			newDiv.classList.add("textbox2");
+       		   	newDiv.setAttribute("data-aos", "fade-left");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
@@ -397,12 +413,14 @@ function insertQ3(){
 
     		if (i%2==0){
     			newDiv.classList.add("textbox");
+    			newDiv.setAttribute("data-aos", "fade-right");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
     		}
     		else if (i%2==1){
        			newDiv.classList.add("textbox2");
+       			newDiv.setAttribute("data-aos", "fade-left");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
@@ -426,12 +444,14 @@ function insertQ3(){
 
     		if (i%2==0){
     			newDiv.classList.add("textbox");
+    			newDiv.setAttribute("data-aos", "fade-right");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
     		}
     		else if (i%2==1){
        			newDiv.classList.add("textbox2");
+       			newDiv.setAttribute("data-aos", "fade-left");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
@@ -455,12 +475,14 @@ function insertQ3(){
 
     		if (i%2==0){
     			newDiv.classList.add("textbox");
+    			newDiv.setAttribute("data-aos", "fade-right");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
     		}
     		else if (i%2==1){
        			newDiv.classList.add("textbox2");
+       			newDiv.setAttribute("data-aos", "fade-left");
     			newDiv.appendChild(newobj);
     			newDiv.appendChild(space);
     			box.appendChild(newDiv);
@@ -477,14 +499,16 @@ function insertQ3(){
 function final(){
 	let newDiv = document.createElement("DIV");
 	let newP = document.createElement("P");
+	newP.setAttribute("data-aos","fade-up");
 	newP.classList.add("stat");
 	newP.innerText = "Wow It's been awesome talking with you! I feel like I've learned a lot about you!"
 	newP.innerText += "You're an Amazing person whose perfered activity of choice is " + final_responses2[fav_activity]
 	+ ".";
-	newP.innerText += "I'll Try my best to be more like you!";
 
 	if (status == "good"){
 		newP.innerText += "You honestly don't spend that much on " + final_responses1[fav_social] + "! You're just a really cool cat!";
+		newP.innerText += "I'll Try my best to be more like you!";
+
 	}
 	else if (status == "ok"){
 		newP.innerText += "You Definetly spend sometime on " + final_responses1[fav_social] + " but it's not the worst thing ever. Maybe a little less would be good for you but overall you're definetly a cool cat";
@@ -497,3 +521,7 @@ function final(){
 	}
 	box.appendChild(newP);
 }	
+
+function passedList(list){
+
+}
